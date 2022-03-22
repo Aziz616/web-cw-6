@@ -1,5 +1,5 @@
-d = function travel(x = "زمردة") {
+function travel(x = "زمردة") {
   console.log("اود السفر الى زحل " + x);
-};
-let planet = prompt("اسم الكوكب");
+}
+let planet = prompt("المشتري");
 travel(planet);
